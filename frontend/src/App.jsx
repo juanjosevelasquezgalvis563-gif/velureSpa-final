@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Registro from "./components/Registro";
 import Login from "./components/Login";
-import  Administrador  from "./components/Administrador";
+
 import  Cliente from "./components/Cliente";
 import Empleado from "./components/Empleado";
 import Reprogramar from "./components/Reprogramar";
@@ -21,7 +21,7 @@ function App() {
       <Route path="/registro" element={<Registro />} />
       <Route path="/perfil" element={<ActualizarDatos/>} />
       <Route path="/login" element={<Login />} />
-      <Route path="/admin" element={<Administrador />} />
+      
       <Route path="/cliente" element={<Cliente />} />
       <Route path="/cita" element={<Cita />} />
       <Route path="/citas" element={<MisCitas />} />
