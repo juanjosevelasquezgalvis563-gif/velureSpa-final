@@ -1,7 +1,4 @@
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=
-DB_NAME=otra
+
 
 # Dependencias
 backend/node_modules/
@@ -9,7 +6,7 @@ frontend/node_modules/
 
 # Variables de entorno
 backend/.env
-frontend/.env
+
 
 # Logs
 *.log
