@@ -15,6 +15,8 @@ export function Cliente() {
   const token = localStorage.getItem("token");
   const user = JSON.parse(localStorage.getItem("user"));
 
+  
+
 
   async function cantidadCitas() {
     try {
