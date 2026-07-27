@@ -1,0 +1,27 @@
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=otra
+
+# Dependencias
+backend/node_modules/
+frontend/node_modules/
+
+# Variables de entorno
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de VS Code (opcional)
+.vscode/
+
+# Archivos de compilación
+backend/dist/
+frontend/dist/
