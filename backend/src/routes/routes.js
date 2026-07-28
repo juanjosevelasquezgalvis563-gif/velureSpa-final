@@ -4,8 +4,7 @@ import {actualizarDatos} from "../controllers/RegistroController.js";
 import {login, me} from "../controllers/LoginController.js";
 
 import {middleware} from "../middlewares/middleware.js";
-import { administrador } from "../controllers/AdministradorController.js";
-import { middlewareAdmin } from "../middlewares/middlewareAdmin.js";
+
 
 import {empleado} from "../controllers/EmpleadoController.js";
 import { middlewareEmpleado } from "../middlewares/middlewareEmpleado.js";
@@ -35,7 +34,7 @@ router.put('/registrarr',middleware,actualizarDatos);
 
 router.post('/login', login);
 router.get('/me', middleware, me);
-router.get('/admin', middlewareAdmin,administrador);
+
 
 router.post('/cliente',middlewareCliente,cliente);
 router.get('/cliente',middlewareCliente, obtenerCliente);
