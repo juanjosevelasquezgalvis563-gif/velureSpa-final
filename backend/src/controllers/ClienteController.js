@@ -171,3 +171,7 @@ export async function CitaRealizar(req, res) {
         return res.status(500).json({ error: "No se pudo obtener la sigueinte cita a realizar" });
     }
 }
+
+export async function citasPendientes(req,res){
+
+}
